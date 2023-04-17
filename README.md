@@ -3,6 +3,9 @@
         npm install -g typescript   //Install globally
         tsc -v                      //Check version
 
+#### How to run TypeScript files?
+        tsc filename.ts
+
 #### What is Typescript?
     --- Superset of JavaScript that adds features and functionality to the language.
     --- Developed by Microsoft, open-source, and can run on any platform that supports JavaScript.
