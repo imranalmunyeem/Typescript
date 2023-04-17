@@ -27,3 +27,6 @@
     ---TypeScript has better tooling and IDE support than JavaScript, which can help improve developer productivity by providing features such as code completion, error detection, and refactoring.
 
     ---TypeScript is a superset of JavaScript, which means that existing JavaScript code can be used in TypeScript without modification. However, TypeScript code cannot be used directly in JavaScript.
+
+#### Why should use TypeScript over JavaScript?
+    ---TypeScript offers static typing, object-oriented features, better tooling, compatibility with existing JavaScript code, scalability, and a large community. These benefits can make it a more suitable choice over JavaScript for large-scale applications that require maintainable, organized code.
