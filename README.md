@@ -1,6 +1,7 @@
 # Typescript
 #### How to install TypeScript?
-        npm install -g typescript
+        npm install -g typescript   //Install globally
+        tsc -v                      //Check version
 
 #### What is Typescript?
     --- Superset of JavaScript that adds features and functionality to the language.
