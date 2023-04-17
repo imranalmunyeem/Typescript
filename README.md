@@ -1,4 +1,7 @@
 # Typescript
+#### How to install TypeScript?
+        npm install -g typescript
+
 #### What is Typescript?
     --- Superset of JavaScript that adds features and functionality to the language.
     --- Developed by Microsoft, open-source, and can run on any platform that supports JavaScript.
