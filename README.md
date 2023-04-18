@@ -155,41 +155,41 @@
 
 
 #### What is the difference between "readonly" and "const" in TypeScript?
-   ---The "readonly" keyword in TypeScript is used to make a property or variable read-only after it has been initialized, while the "const" keyword is used to declare a constant value that cannot be reassigned. 
-   ---Readonly properties can be modified through methods, while const values cannot.
+    ---The "readonly" keyword in TypeScript is used to make a property or variable read-only after it has been initialized, while the "const" keyword is used to declare a constant value that cannot be reassigned. 
+    ---Readonly properties can be modified through methods, while const values cannot.
 
 
 #### What is a mapped type in TypeScript?
-   ---A mapped type in TypeScript is a way to create a new type by transforming the properties of an existing type. 
-   ---It is denoted by using the "keyof" keyword to access the keys of an object type and a mapping function to transform the properties.
-   ---For example, the mapped type "{ [K in keyof T]: string }" would transform all properties of an object type "T" to be strings.
+    ---A mapped type in TypeScript is a way to create a new type by transforming the properties of an existing type. 
+    ---It is denoted by using the "keyof" keyword to access the keys of an object type and a mapping function to transform the properties.
+    ---For example, the mapped type "{ [K in keyof T]: string }" would transform all properties of an object type "T" to be strings.
 
 
 #### What is the difference between a module and a namespace in TypeScript?
-   ---A module is a file that exports one or more values, while a namespace is a way to group related code into a single namespace. 
-   ---A module can contain both code and declarations, while a namespace can only contain declarations.
+    ---A module is a file that exports one or more values, while a namespace is a way to group related code into a single namespace. 
+    ---A module can contain both code and declarations, while a namespace can only contain declarations.
 
 
 #### What is a conditional type in TypeScript?
-   ---A conditional type in TypeScript is a type that depends on a condition. 
-   ---It is denoted by using the "extends" keyword and a ternary operator to specify the type based on a condition. 
-   ---For example, the conditional type "T extends string ? string : never" would return the type "string" if T is a string, or "never" otherwise.
+    ---A conditional type in TypeScript is a type that depends on a condition. 
+    ---It is denoted by using the "extends" keyword and a ternary operator to specify the type based on a condition. 
+    ---For example, the conditional type "T extends string ? string : never" would return the type "string" if T is a string, or "never" otherwise.
 
 
 #### What is a type assertion in TypeScript?
-   ---A type assertion in TypeScript is a way to tell the compiler the type of a value when the compiler is unable to infer it. 
-   ---It is denoted by using the angle bracket syntax or the "as" keyword. For example, the assertion "const name = (person as any).name" would tell the compiler to treat the "person" object as an "any" type, and then access the "name" property.
+    ---A type assertion in TypeScript is a way to tell the compiler the type of a value when the compiler is unable to infer it. 
+    ---It is denoted by using the angle bracket syntax or the "as" keyword. For example, the assertion "const name = (person as any).name" would tell the compiler to treat the "person" object as an "any" type, and then access the "name" property.
 
 
 #### What is the "keyof" operator in TypeScript?
-   ---The "keyof" operator in TypeScript is a way to access the keys of an object type. 
-   ---It returns a union type of string literals that represent the keys of the object type. For example, the type "keyof Person" would return a union type of the strings "name", "age", and "address".
+    ---The "keyof" operator in TypeScript is a way to access the keys of an object type. 
+    ---It returns a union type of string literals that represent the keys of the object type. For example, the type "keyof Person" would return a union type of the strings "name", "age", and "address".
 
 
 #### What is the "Partial" type in TypeScript?
-   ---The "Partial" type in TypeScript allows you to create a new type that has all the properties of an existing type, but with each property marked as optional. 
-   ---It is useful when you want to create a new object that inherits most of its properties from an existing object, but with some optional properties. 
-   ---For example, the type "Partial<Person>" would create a new type that has all the properties of a "Person" object, but with each property marked as optional.
+    ---The "Partial" type in TypeScript allows you to create a new type that has all the properties of an existing type, but with each property marked as optional. 
+    ---It is useful when you want to create a new object that inherits most of its properties from an existing object, but with some optional properties. 
+    ---For example, the type "Partial<Person>" would create a new type that has all the properties of a "Person" object, but with each property marked as optional.
 
 
 
