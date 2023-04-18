@@ -37,3 +37,15 @@
 
 #### Why should use TypeScript over JavaScript?
     ---TypeScript offers static typing, object-oriented features, better tooling, compatibility with existing JavaScript code, scalability, and a large community. These benefits can make it a more suitable choice over JavaScript for large-scale applications that require maintainable, organized code.
+    
+#### What are the data types in TypeScript?
+    ---boolean: Represents a logical value of true or false.
+    ---number: Represents a numeric value, including integers and floating-point numbers.
+    ---string: Represents a sequence of characters enclosed in quotes.
+    ---array: Represents a collection of values of the same type. Arrays can be defined using the type followed by [] or using the Array<type> syntax.
+    ---tuple: Represents an array with a fixed number of elements, where each element may have a different type.
+    ---enum: Represents a set of named constants.
+    ---any: Represents a value of any type. This is useful when the type of a variable is not known in advance.
+    ---void: Represents the absence of a value.
+    ---null: Represents a null value.
+    ---undefined: Represents an undefined value.    
